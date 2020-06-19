@@ -1,0 +1,114 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+}
+
+h1, h2 {
+    text-align: center;
+    display: block;
+}
+
+h1{
+    font-size: 70px;
+    color: lightblue;
+
+}
+
+h2{
+    color: lightblue;
+    margin-bottom: 30px;
+}
+
+#accueil{
+    width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container #formulaire{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#enter{
+    border: none;
+    border-radius: 5px;
+    color: lightblue;
+    background-color: black;
+    font-weight: normal;
+    padding: 10px 15px;
+}
+
+#enter:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#userInput{
+    border: none;
+    border-radius: 5px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+ul{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.item{
+    font-weight: 700;
+    list-style: none;
+    border-radius: 5px;
+    background-color: #add8e6;
+    color: #333333;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(5, 5, 5, .7);
+}
+
+
+
+.checked{
+    background-color: lightgreen;
+}
+
+.delete{
+    float: right;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: crimson;
+}
+
+.update{
+    float: right;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: #ffa500;
+    margin: 0 10px;
+}
+
+.update:hover{
+    background-color: rgba(255, 155, 0, .8);
+}
+
+.delete:hover{
+    background-color: rgba(220, 20, 60, .8);
+}
